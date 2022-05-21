@@ -1,0 +1,37 @@
+@import '../base/variables';
+@import '../lips/bootstrap-reboot.min';
+@import '../base/mixin';
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.test {
+    color: $main-color;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin: 25px auto 0 auto;
+    margin-top: 25px;
+}
+
+@import '../block/promo';
+@import '../block/title';
+@import '../block/buttons';
+@import '../block/sidepanel';
+@import '../block/menu';
+@import '../block/about';
+@import '../block/resume';
+@import '../block/stack';
+@import '../block/portfolio';
+@import '../block/price';
+@import '../block/contacts';
+@import '../block/media';
